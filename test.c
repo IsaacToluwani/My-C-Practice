@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 
 int main() {
    int number1;
@@ -7,6 +8,11 @@ int main() {
    int number4;
    int number5;
    
+
+int main ()
+{
+printf("hello world");
+}
    number1 = 10;      
    number2 = 20;   
    number3 = 30;   
