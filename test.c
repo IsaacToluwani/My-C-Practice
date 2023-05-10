@@ -1,27 +1,24 @@
 #include <stdio.h>
-#include <stdio.h>
 
-int main() {
-   int number1;
-   int number2;
-   int number3;
-   int number4;
-   int number5;
-   
-
-int main ()
+// A C program to print all natural numbers from n to 1 using while loop
+int main(void) 
 {
-printf("hello world");
-}
-   number1 = 10;      
-   number2 = 20;   
-   number3 = 30;   
-   number4 = 40; 
-   number5 = 50;     
+    char n =   'a';
+    char n = 
+    char n =  'a';
+    char c = "z";
+//     printf("Input the character you would like to print to: ");
+//   scanf("%c", &n);
 
-   printf( "number1: %d\n", number1);
-   printf( "number2: %d\n", number2);
-   printf( "number3: %d\n", number3);
-   printf( "number4: %d\n", number4);
-   printf( "number5: %d\n", number5);
+  while ( n <= c)
+  {
+      printf("%c", n);
+    //   if (c < n)
+    // {
+    //     printf(", ");
+    // }
+    
+    n++;
+  }
+  return (0);
 }
