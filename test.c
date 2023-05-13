@@ -3,22 +3,26 @@
 // A C program to print all natural numbers from n to 1 using while loop
 int main(void) 
 {
-    char n =   'a';
-    char n = 
-    char n =  'a';
-    char c = "z";
-//     printf("Input the character you would like to print to: ");
-//   scanf("%c", &n);
+    int i, j;
 
-  while ( n <= c)
-  {
-      printf("%c", n);
-    //   if (c < n)
-    // {
-    //     printf(", ");
-    // }
+    i = 1;
     
-    n++;
-  }
-  return (0);
+
+    while (i <=3)
+    {
+      printf("The start of iteration %d of the outer loop.\n", i);
+      i++;
+       j = 1;
+      do
+      {
+       
+        printf("Iteration %d of the inner loop.\n", j);
+        j++;
+      } while (j <= 4);
+      
+      printf("The emd of iteration %d of the outer loop.\n", i);
+      
+    }
+    
+    return (0);
 }
